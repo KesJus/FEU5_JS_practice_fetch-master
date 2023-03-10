@@ -1,0 +1,13 @@
+GET https://robust-safe-crafter.glitch.me/
+
+###
+
+POST  https://robust-safe-crafter.glitch.me/
+content-type: application/json
+
+{
+    "image": "img1.jpg",
+    "city": "Kaunas",
+    "price": 10,
+    "description": "Bandom Api"
+}
