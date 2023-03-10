@@ -1,0 +1,45 @@
+@import 'common.css';
+
+.addProperty, .header{background-color: #00BDB2;
+color: whitesmoke;}
+
+.header{ 
+    padding: 2.4rem 12rem;
+    /* padding-right: 10px; */
+    /* apridboti tik maximalu ploti */
+    /* max-width: 80rem; */
+    /* skaiciuoti parastes automatiskai vienodai is kaires ir is desines */
+    margin: 0 auto;
+    border: 1px solid grey;
+  }
+
+  
+.filters{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .properties{
+    display: inline-block;
+  }
+
+  .unlisted {
+    list-style: none;
+    padding-left: 0;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.6rem;
+  }
+  /* .grid--4 {
+    grid-template-columns: repeat(3, 1fr);
+  } */
+  legend{
+    font-size: 1.2rem;
+    font-weight:bolder;
+ color: #2c2c2c;
+ padding: 1.2rem 0;
+    ;
+  }
